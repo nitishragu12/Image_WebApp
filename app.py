@@ -24,4 +24,5 @@ if uploaded_image is not None:
     plt.imshow(img_resized)
     y_out = model.predict(flat_data)
     y_out = categories[y_out[0]]
-    st.write(f' PREDICTED OUTPUT: {y_out}')
+    st.write(f' PREDICTED OUTPUT: {y_out}') 
+ 

@@ -2,6 +2,4 @@ streamlit
 matplotlib
 sklearn
 numpy
-skimage.io
-skimage.transform
-PIL
+
